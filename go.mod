@@ -9,6 +9,8 @@ require (
 	github.com/approvals/go-approval-tests v1.6.2 // indirect
 	github.com/cpuguy83/go-md2man/v2 v2.0.7 // indirect
 	github.com/davecgh/go-spew v1.1.1 // indirect
+	github.com/emirpasic/gods v1.18.1 // indirect
+	github.com/jonboulle/clockwork v0.5.0 // indirect
 	github.com/pmezard/go-difflib v1.0.0 // indirect
 	github.com/russross/blackfriday/v2 v2.1.0 // indirect
 	github.com/segmentio/fasthash v1.0.3 // indirect

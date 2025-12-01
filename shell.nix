@@ -7,5 +7,6 @@ pkgs.mkShell {
     pkgs.binutils
     pkgs.go
     pkgs.gcc
+    pkgs.delve
   ];
 }
