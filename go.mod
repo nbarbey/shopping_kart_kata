@@ -1,4 +1,4 @@
-module go_starting_point
+module shopping_kart
 
 go 1.24.6
 
