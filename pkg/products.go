@@ -8,7 +8,6 @@ type Product struct {
 	Name              string
 	Cost              *money.Money
 	PercentageRevenue int
-	PricePerUnit      *money.Money
 	TaxPecentage      int
 }
 
