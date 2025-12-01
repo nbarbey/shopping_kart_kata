@@ -1,5 +1,7 @@
 github.com/IBM/fp-go v1.1.50 h1:6Xiaitfn26W49O/wxqBH2GIloahNFjtB12ydZnROmjo=
 github.com/IBM/fp-go v1.1.50/go.mod h1:xQx8D6UU4EDtyYmR99rVYVyLpC4rNYXLl/l5ye8KfrE=
+github.com/Rhymond/go-money v1.0.15 h1:rdcIcO8FxCqEwBSt5VZf4hLMfovtcDIiY5/cQWE+7Vo=
+github.com/Rhymond/go-money v1.0.15/go.mod h1:iHvCuIvitxu2JIlAlhF0g9jHqjRSr+rpdOs7Omqlupg=
 github.com/approvals/go-approval-tests v1.6.2 h1:LoTraXaHEK/w4i+jzqzUSwF6VwOAKmp7hxM4UqAwfng=
 github.com/approvals/go-approval-tests v1.6.2/go.mod h1:i7AlHlLqLyxTby+MnSFgxkObjFlsywI46fnOitjMBiU=
 github.com/cpuguy83/go-md2man/v2 v2.0.7 h1:zbFlGlXEAKlwXpmvle3d8Oe3YnkKIK4xSRTd3sHPnBo=

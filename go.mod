@@ -6,6 +6,7 @@ require github.com/stretchr/testify v1.11.1
 
 require (
 	github.com/IBM/fp-go v1.1.50 // indirect
+	github.com/Rhymond/go-money v1.0.15 // indirect
 	github.com/approvals/go-approval-tests v1.6.2 // indirect
 	github.com/cpuguy83/go-md2man/v2 v2.0.7 // indirect
 	github.com/davecgh/go-spew v1.1.1 // indirect

@@ -1,11 +1,25 @@
 package pkg
 
 import (
-	"github.com/stretchr/testify/assert"
 	"testing"
+
+	"github.com/stretchr/testify/assert"
 )
 
-func TestPkg(t *testing.T) {
-	t.Skip()
-	assert.True(t, false)
+func TestEmptyCart(t *testing.T) {
+	cart := NewShoppingCart()
+
+	result := cart.String()
+
+	expected := `
+--------------------------------------------
+| Product Name | Price with VAT | Quantity |
+|--------------|----------------|----------|
+|------------------------------------------|
+| Promotion:                               |
+|------------------------------------------|
+| Total products: 0                        |
+| Total price: 0.00 €                      |
+--------------------------------------------`
+	assert.Equal(t, expected, result)
 }
