@@ -33,10 +33,23 @@ func TestProducts_final_price(t *testing.T) {
 		TaxPecentage:      21,
 	})
 
+	assert.Equal(t, int64(217), products.Get("Iceberg").FinalPrice().Amount())
+}
+
+func TestProducts_final_price_with_another_product(t *testing.T) {
+	products := NewProducts()
+
+	products.Add(Product{
+		Name:              "Bread",
+		Cost:              money.New(71, money.EUR),
+		PercentageRevenue: 12,
+		TaxPecentage:      10,
+	})
+
 	equals, err := products.
-		Get("Iceberg").
+		Get("Bread").
 		FinalPrice().
-		Equals(money.New(217, money.EUR))
+		Equals(money.New(88, money.EUR))
 	require.NoError(t, err)
 	assert.True(t, equals)
 }
