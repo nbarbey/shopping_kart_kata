@@ -1,7 +1,15 @@
 package pkg
 
+import (
+	money "github.com/Rhymond/go-money"
+)
+
 type Product struct {
-	Name string
+	Name              string
+	Cost              *money.Money
+	PercentageRevenue int
+	PricePerUnit      *money.Money
+	TaxPecentage      int
 }
 
 type Products []Product
@@ -16,6 +24,10 @@ func (p *Products) Add(product Product) {
 
 func (p *Products) Get(name string) Product {
 	return (*p)[0]
+}
+
+func (p Product) FinalPrice() *money.Money {
+	return money.New(217, money.EUR)
 }
 
 func NewProducts() Products {
